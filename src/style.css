@@ -1,0 +1,101 @@
+.viewActiva {
+    color: rgb(12, 231, 12);
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.viewActiva:hover {
+    color: rgb(9, 73, 9);
+    text-decoration: none;
+}
+
+.view {
+    color: white;
+    text-decoration: none;
+}
+
+.view:hover {
+    color: rgb(9, 73, 9);
+    text-decoration: none;
+}
+
+.cardPizza{
+    margin: 0;
+}
+
+.verDetalle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26px;
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: 4px 4px 10px 3px rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 16px;
+
+}
+
+.imgDetalle img{
+    width: 380px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.infDetalle{
+    width: 70%;
+    margin-left: 16px;
+}
+
+.lista li, .listStyle{
+    list-style: none;
+}
+
+.logo{
+    width: 20px;
+}
+
+.boxCarrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    font-size: 24px;
+}
+
+.detallePedido img{
+    width: 46px;
+    margin: 6px;
+    
+}
+
+.detallePedido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 16px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    
+}
+
+.totalP{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tittle{
+    width: 50%;
+}
+
+.footer p{
+    margin: 0px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 16px;
+}
